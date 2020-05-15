@@ -1,0 +1,8 @@
+language: ruby
+before_script:
+    - rf -rf public
+script:
+    - bundle exec jekyll build
+branches:
+    only:
+        - master
