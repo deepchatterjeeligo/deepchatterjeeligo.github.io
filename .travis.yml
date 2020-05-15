@@ -1,6 +1,6 @@
 language: ruby
 before_script:
-    - rf -rf public
+    - rm -rf public
 script:
     - bundle exec jekyll build
 branches:
