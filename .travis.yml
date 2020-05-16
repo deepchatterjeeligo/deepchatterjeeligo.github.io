@@ -1,15 +1,11 @@
 language: ruby
-
-install:
-    - bundle install
-before_script:
-    - rm -rf public
+cache: bundler
 script:
     - bundle exec jekyll build
 
 deploy:
     provider: pages
-    local_dir: public
+    local_dir: _site
     skip_cleanup: true
     github_token: $GITHUB_TOKEN
     keep_history: true
