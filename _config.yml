@@ -23,9 +23,8 @@ email: deep.chatterjee@ligo.org
 description: >- # this means to ignore newlines until "baseurl:"
   I am a PhD student in astronomy and astrophysics. I work in
   gravitational waves and multi-messenger astronomy.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog
+url: "http://dchat18.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: deepchatterjeeligo
 
 # Build settings
