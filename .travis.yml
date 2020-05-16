@@ -1,0 +1,17 @@
+language: ruby
+before_script:
+    - rm -rf public
+install:
+    - bundle install
+script:
+    - bundle exec jekyll build
+after_script:
+    - mv public/* .
+
+deploy:
+    provider: pages
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    keep_history: true
+    on:
+        branch: master
