@@ -1,1 +1,1 @@
-Sitemap: https://dchat.astro.io/sitemap.xml
+Sitemap: https://deepchatterjeeligo.github.io/sitemap.xml
