@@ -16,17 +16,17 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Welcome to my page"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+title                    : "Deep Chatterjee"
+title_separator          : "|"
+subtitle                 : #"PhD. Physics"
 name                     : "Deep Chatterjee"
 description              : "My portfolio"
-url                      : "https://dchat.astro.io"
+url                      : "https://deepchatterjeeligo.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+teaser                   : "/assets/images/code.jpg"
+logo                     : #"/assets/images/GW-CBC-small.jpg"
+masthead_title           : "Welcome to my site"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -99,12 +99,15 @@ author:
   location         : "Milwaukee, WI"
   email            : "deep.chatterjee@ligo.org"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:deep.chatterjee@ligo.org"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/deep-chatterjee-ab6283182"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/deepchatterjeeligo"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://git.ligo.org/deep.chatterjee"
 
 # Site Footer
 footer:
@@ -120,7 +123,7 @@ footer:
       # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      # url:
+      # url: "https://git.ligo.org/deep.chatterjee"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
