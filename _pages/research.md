@@ -6,17 +6,17 @@ class: wide
 author_profile: true
 category: research
 permalink: /research/
+gallery:
+  - url: /assets/images/GW-CBC-small.jpg
+    image_path: /assets/images/GW-CBC-small.jpg
+  - url: /assets/images/milwaukee-uwm-nemo.jpg
+    image_path: /assets/images/milwaukee-uwm-nemo.jpg
+  - url: /assets/images/code.jpg
+    image_path: /assets/images/code.jpg
 ---
-<figure class="third">
-	<img src="/assets/images/GW-CBC-small.jpg">
-	<img src="/assets/images/milwaukee-uwm-nemo.jpg">
-	<img src="/assets/images/code.jpg">
-	<figcaption>
-		<b>Left:</b> A cartoon showing the coalescence of two compact objects emitting gravitational waves (GWs).
-		<b>Middle:</b> The (old) UWM Nemo computing cluster where GW data from LIGO/Virgo detectors is analysed to look for signals.
-		<b>Right:</b> Working on the data sitting on my roof!
-	</figcaption>
-</figure>
+{% include gallery caption="<b>Left:</b> A cartoon showing the coalescence of two compact objects emitting gravitational waves (GWs).
+<b>Middle:</b> The (old) UWM Nemo computing cluster where GW data from LIGO/Virgo detectors is analysed to look for signals.
+<b>Right:</b> Working on the data sitting on my roof!" %}
 
 I am a part of the LIGO Scientific collaboration ([LSC](https://www.ligo.org/)) since 2016, and a part of the
 Zwicky Transient Factory ([ZTF](https://www.ipac.caltech.edu/project/ztf)) since 2017.
