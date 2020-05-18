@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://deepchatterjeeligo.github.io/iiser/</loc>
+</url>
+<url>
+<loc>https://deepchatterjeeligo.github.io/hobby/</loc>
+</url>
+<url>
 <loc>https://deepchatterjeeligo.github.io/</loc>
 </url>
 <url>
-<loc>https://deepchatterjeeligo.github.io/personal/</loc>
+<loc>https://deepchatterjeeligo.github.io/milwaukee/</loc>
 </url>
 <url>
 <loc>https://deepchatterjeeligo.github.io/publications/</loc>
