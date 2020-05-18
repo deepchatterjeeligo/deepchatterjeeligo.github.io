@@ -4,6 +4,7 @@ classes: wide
 title: Research
 class: wide
 author_profile: true
+category: research
 permalink: /research/
 ---
 <figure class="third">

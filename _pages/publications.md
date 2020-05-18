@@ -1,12 +1,9 @@
 ---
 permalink: /publications/
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+layout: single
+classes: wide
+title: Personal
+author_profile: true
+category: research
 ---
 This section contains publications
