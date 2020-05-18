@@ -6,6 +6,7 @@ author_profile: true
 category: personal
 permalink: /hobby/
 ---
-![Performance at IISER](/assets/images/hobby.jpg)
+{% include figure image_path="/assets/images/hobby.jpg"
+ alt="A performance at IISER" caption="During a performance at IISER-K" %}
 
 Content soon to be added.

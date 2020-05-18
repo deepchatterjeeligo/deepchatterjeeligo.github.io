@@ -1,9 +1,9 @@
 ---
-permalink: /publications/
 layout: single
 classes: wide
-title: Personal
+title: Publications
 author_profile: true
 category: research
+permalink: /publications/
 ---
 This section contains publications

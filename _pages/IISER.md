@@ -6,6 +6,7 @@ author_profile: true
 category: personal
 permalink: /iiser/
 ---
-![IISER life](/assets/images/iiser.jpg)
+{% include figure image_path="/assets/images/iiser.jpg"
+ alt="IISER-K" caption="Lecture hall complex. IISER-K" %}
 
 Content soon to be added.
