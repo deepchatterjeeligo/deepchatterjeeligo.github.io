@@ -33,7 +33,7 @@ present, they are dim and evolve rapidly making it a challenger for observationa
 and ZTF to understand the conditions under which such joint multi-messenger observations are possible, and develop
 tools and software which make such discoveries possible.
 
-Here is a list of my [publications](/publications)
+Here is a list of my [publications](/publications/)
 (also available on [ADS](https://ui.adsabs.harvard.edu/search/q=author%3A%22Chatterjee%2C%20Deep%22&sort=date%20desc%2C%20bibcode%20desc&p_=0)).
 
 ## Software
