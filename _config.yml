@@ -21,7 +21,7 @@ title_separator          : "|"
 subtitle                 : #"PhD. Physics"
 name                     : "Deep Chatterjee"
 description              : "My portfolio"
-url                      : "https://deepchatterjeeligo.github.io/portfolio-project/"
+url                      : "https://deepchatterjeeligo.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : #"/assets/images/code.jpg"
@@ -140,6 +140,8 @@ include:
   - .htaccess
   - _pages
 exclude:
+  - Gemfile
+  - Gemfile.lock
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
