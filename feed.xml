@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://deepchatterjeeligo.github.io/portfolio-project//feed.xml" rel="self" type="application/atom+xml" /><link href="https://deepchatterjeeligo.github.io/portfolio-project//" rel="alternate" type="text/html" /><updated>2020-05-20T15:58:01+00:00</updated><id>https://deepchatterjeeligo.github.io/portfolio-project//feed.xml</id><title type="html">Deep Chatterjee</title><subtitle>My portfolio</subtitle><author><name>Deep Chatterjee</name><email>deep.chatterjee@ligo.org</email></author><entry><title type="html">Experience with Jekyll.</title><link href="https://deepchatterjeeligo.github.io/portfolio-project//experience-with-jekyll/" rel="alternate" type="text/html" title="Experience with Jekyll." /><published>2020-05-20T00:37:00+00:00</published><updated>2020-05-20T00:37:00+00:00</updated><id>https://deepchatterjeeligo.github.io/portfolio-project//experience-with-jekyll</id><content type="html" xml:base="https://deepchatterjeeligo.github.io/portfolio-project//experience-with-jekyll/">&lt;p&gt;The days following my Ph.D. defense and dissertation submission was the perfect time for me
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://deepchatterjeeligo.github.io/portfolio-project//feed.xml" rel="self" type="application/atom+xml" /><link href="https://deepchatterjeeligo.github.io/portfolio-project//" rel="alternate" type="text/html" /><updated>2020-05-20T19:26:27+00:00</updated><id>https://deepchatterjeeligo.github.io/portfolio-project//feed.xml</id><title type="html">Deep Chatterjee</title><subtitle>My portfolio</subtitle><author><name>Deep Chatterjee</name><email>deep.chatterjee@ligo.org</email></author><entry><title type="html">Experience with Jekyll.</title><link href="https://deepchatterjeeligo.github.io/portfolio-project//experience-with-jekyll/" rel="alternate" type="text/html" title="Experience with Jekyll." /><published>2020-05-20T00:37:00+00:00</published><updated>2020-05-20T00:37:00+00:00</updated><id>https://deepchatterjeeligo.github.io/portfolio-project//experience-with-jekyll</id><content type="html" xml:base="https://deepchatterjeeligo.github.io/portfolio-project//experience-with-jekyll/">&lt;p&gt;The days following my Ph.D. defense and dissertation submission was the perfect time for me
 to create a personal website, something I had been waiting to do for a long time.
 I was able to create a website in slightly over a weekend with &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;.
 Jekyll is an awesome tool to create static websites, like a personal website or a portfolio.
@@ -20,10 +20,9 @@ with Jekyll, or some other tool.&lt;/p&gt;
 &lt;h2 id=&quot;check-if-running-a-container-works-for-you&quot;&gt;Check if running a container works for you&lt;/h2&gt;
 &lt;p&gt;If you have installation issues with either Jekyll or its dependencies (which is in
 &lt;a href=&quot;https://www.ruby-lang.org/en/&quot;&gt;Ruby&lt;/a&gt;), try the jekyll &lt;a href=&quot;https://hub.docker.com/r/jekyll/jekyll/&quot;&gt;docker container&lt;/a&gt;.
-&lt;a href=&quot;https://www.docker.com/&quot;&gt;Docker&lt;/a&gt; has become popular even in scientific computing
-and analysis (apart from the industry), specially astrophysics. Also, if you are not
-an active web developer, but just want Jekyll for only your website, this is the
-cleanest option in my opinion.&lt;/p&gt;
+&lt;a href=&quot;https://www.docker.com/&quot;&gt;Docker&lt;/a&gt; has become popular in scientific computing
+and analysis, specially astrophysics. Also, if you are not an active web developer,
+but just want Jekyll for only website, this is the cleanest option in my opinion.&lt;/p&gt;
 
 &lt;p&gt;I did the following:&lt;/p&gt;
 &lt;ul&gt;
@@ -118,13 +117,13 @@ Orientation                     : Rotate 90 CW
     &lt;p&gt;This confirmed that indeed this was the case.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;For me, I tried to open the picture in GIMP which comes pre-installed in
-Debian systems, and it asked me rightaway, if I wanted to fix the orientation.
+Debian systems, and it asked me rightaway if I wanted to fix the orientation.
 All I had to do is to export it with a different filename from GIMP.
 Later, I came to know that this also happens with tools like Photoshop.
 It was a serendipitous, much welcome fix!&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I should mention that the &lt;a href=&quot;https://www.linkedin.com/learning-login/share?forceAccount=false&amp;amp;redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-static-site-building-with-jekyll%3Ftrk%3Dshare_ent_url&amp;amp;account=77313426&quot;&gt;LinkedIn course&lt;/a&gt; by Nate Barbettini helped me get a quick start
+&lt;p&gt;I should mention that the &lt;a href=&quot;https://www.linkedin.com/learning-login/share?forceAccount=false&amp;amp;redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-static-site-building-with-jekyll%3Ftrk%3Dshare_ent_url&amp;amp;account=77313426&quot;&gt;LinkedIn course&lt;/a&gt; by Nate Barbettini helped me to get a quick start
 with Jekyll. Otherwise, if you decide to use the same template as I did, the
 &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/&quot;&gt;quick start&lt;/a&gt;
 should be good enough. Happy Jekylling!&lt;/p&gt;</content><author><name>Deep Chatterjee</name><email>deep.chatterjee@ligo.org</email></author><summary type="html">The days following my Ph.D. defense and dissertation submission was the perfect time for me to create a personal website, something I had been waiting to do for a long time. I was able to create a website in slightly over a weekend with Jekyll. Jekyll is an awesome tool to create static websites, like a personal website or a portfolio. Another popular tool I came across was Hugo. However, I decided to stick with Jekyll somehow since I had heard about it earlier. An advantage of using Jekyll is that you get many options for templates to choose from. In my case, I would like to thank Michael Rose for the great looking, feature packed Minimal Mistakes Jekyll template. The sites are also mobile-friendly. I should also mention that you can also host your Jekyll website for free via Github Pages or Netlify. No ads!</summary></entry></feed>
