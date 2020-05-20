@@ -31,10 +31,9 @@ with Jekyll, or some other tool.
 ## Check if running a container works for you
 If you have installation issues with either Jekyll or its dependencies (which is in
 [Ruby](https://www.ruby-lang.org/en/)), try the jekyll [docker container](https://hub.docker.com/r/jekyll/jekyll/).
-[Docker](https://www.docker.com/) has become popular even in scientific computing
-and analysis (apart from the industry), specially astrophysics. Also, if you are not
-an active web developer, but just want Jekyll for only your website, this is the
-cleanest option in my opinion.
+[Docker](https://www.docker.com/) has become popular in scientific computing
+and analysis, specially astrophysics. Also, if you are not an active web developer,
+but just want Jekyll for only website, this is the cleanest option in my opinion.
 
 I did the following:
 - I had a dedicated terminal for the container. After you have installed `docker`
@@ -125,13 +124,13 @@ Fortunately, there was a simple fix.
   This confirmed that indeed this was the case.
 
 - For me, I tried to open the picture in GIMP which comes pre-installed in
-  Debian systems, and it asked me rightaway, if I wanted to fix the orientation.
+  Debian systems, and it asked me rightaway if I wanted to fix the orientation.
   All I had to do is to export it with a different filename from GIMP.
   Later, I came to know that this also happens with tools like Photoshop.
   It was a serendipitous, much welcome fix!
 
 
-I should mention that the [LinkedIn course](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-static-site-building-with-jekyll%3Ftrk%3Dshare_ent_url&account=77313426) by Nate Barbettini helped me get a quick start
+I should mention that the [LinkedIn course](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-static-site-building-with-jekyll%3Ftrk%3Dshare_ent_url&account=77313426) by Nate Barbettini helped me to get a quick start
 with Jekyll. Otherwise, if you decide to use the same template as I did, the
 [quick start](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 should be good enough. Happy Jekylling!
