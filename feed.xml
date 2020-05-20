@@ -1,1 +1,130 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://deepchatterjeeligo.github.io/portfolio-project//feed.xml" rel="self" type="application/atom+xml" /><link href="https://deepchatterjeeligo.github.io/portfolio-project//" rel="alternate" type="text/html" /><updated>2020-05-20T00:16:14+00:00</updated><id>https://deepchatterjeeligo.github.io/portfolio-project//feed.xml</id><title type="html">Deep Chatterjee</title><subtitle>My portfolio</subtitle><author><name>Deep Chatterjee</name><email>deep.chatterjee@ligo.org</email></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://deepchatterjeeligo.github.io/portfolio-project//feed.xml" rel="self" type="application/atom+xml" /><link href="https://deepchatterjeeligo.github.io/portfolio-project//" rel="alternate" type="text/html" /><updated>2020-05-20T15:58:01+00:00</updated><id>https://deepchatterjeeligo.github.io/portfolio-project//feed.xml</id><title type="html">Deep Chatterjee</title><subtitle>My portfolio</subtitle><author><name>Deep Chatterjee</name><email>deep.chatterjee@ligo.org</email></author><entry><title type="html">Experience with Jekyll.</title><link href="https://deepchatterjeeligo.github.io/portfolio-project//experience-with-jekyll/" rel="alternate" type="text/html" title="Experience with Jekyll." /><published>2020-05-20T00:37:00+00:00</published><updated>2020-05-20T00:37:00+00:00</updated><id>https://deepchatterjeeligo.github.io/portfolio-project//experience-with-jekyll</id><content type="html" xml:base="https://deepchatterjeeligo.github.io/portfolio-project//experience-with-jekyll/">&lt;p&gt;The days following my Ph.D. defense and dissertation submission was the perfect time for me
+to create a personal website, something I had been waiting to do for a long time.
+I was able to create a website in slightly over a weekend with &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;.
+Jekyll is an awesome tool to create static websites, like a personal website or a portfolio.
+Another popular tool I came across was &lt;a href=&quot;https://gohugo.io/&quot;&gt;Hugo&lt;/a&gt;. However, I
+decided to stick with Jekyll somehow since I had heard about it earlier. An advantage of
+using Jekyll is that you get many options for templates to choose from. In my case, I would
+like to thank &lt;a href=&quot;https://mademistakes.com/&quot;&gt;Michael Rose&lt;/a&gt; for the great looking, feature packed
+&lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/&quot;&gt;Minimal Mistakes&lt;/a&gt; Jekyll template. The
+sites are also mobile-friendly. I should also mention that you can also host your Jekyll
+website for free via &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt; or
+&lt;a href=&quot;https://www.netlify.com/&quot;&gt;Netlify&lt;/a&gt;. No ads!&lt;/p&gt;
+
+&lt;p&gt;The Jekyll docs and online resources are great places to begin. But, I just wanted to
+mention a few things that might make things a little easier (at least it did for me).
+Also, what I mention here holds in general and can be considered a &lt;em&gt;good practice&lt;/em&gt;.
+Feel free to adopt the principle before you start working on your personal website
+with Jekyll, or some other tool.&lt;/p&gt;
+
+&lt;h2 id=&quot;check-if-running-a-container-works-for-you&quot;&gt;Check if running a container works for you&lt;/h2&gt;
+&lt;p&gt;If you have installation issues with either Jekyll or its dependencies (which is in
+&lt;a href=&quot;https://www.ruby-lang.org/en/&quot;&gt;Ruby&lt;/a&gt;), try the jekyll &lt;a href=&quot;https://hub.docker.com/r/jekyll/jekyll/&quot;&gt;docker container&lt;/a&gt;.
+&lt;a href=&quot;https://www.docker.com/&quot;&gt;Docker&lt;/a&gt; has become popular even in scientific computing
+and analysis (apart from the industry), specially astrophysics. Also, if you are not
+an active web developer, but just want Jekyll for only your website, this is the
+cleanest option in my opinion.&lt;/p&gt;
+
+&lt;p&gt;I did the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;I had a dedicated terminal for the container. After you have installed &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker&lt;/code&gt;
+and pulled down the container using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker pull jekyll/jekyll&lt;/code&gt;, run
+the following in this terminal.
+    &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker run &lt;span class=&quot;nt&quot;&gt;-it&lt;/span&gt;  &lt;span class=&quot;nt&quot;&gt;--publish&lt;/span&gt; 4000 &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;--volume&lt;/span&gt; /home/deep/github/:/static-site/ &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;--name&lt;/span&gt; my-jekyll-container &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    jekyll/jekyll bash
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;p&gt;Let me break down the options starting from the bottom.&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll/jekyll&lt;/code&gt; is the Jekyll image you pulled down from Dockerhub. In that
+container, you will run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bash&lt;/code&gt;.&lt;/li&gt;
+      &lt;li&gt;Give this container a name. I chose &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;my-jekyll-container&lt;/code&gt;. You can refer
+back later to this container using this name.&lt;/li&gt;
+      &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--volume&lt;/code&gt; does something important. Turns out that a container is like an
+independent OS running on your system with its own filesystem. When you exit
+a container it removes files you create, unless you make it persistent. Here,
+I’m linking my local machine’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/home/deep/github/&lt;/code&gt; folder to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/static-site/&lt;/code&gt;
+folder of the container. Below is the output of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ls&lt;/code&gt; in the started &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bash&lt;/code&gt; process.
+        &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bash-5.0# &lt;span class=&quot;nb&quot;&gt;ls
+&lt;/span&gt;bin          home         mnt          root         srv          tmp
+dev          lib          opt          run          static-site  usr
+etc          media        proc         sbin         sys          var
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;p&gt;There is a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;static-site&lt;/code&gt;, the contents of which will be identical to
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/home/deep/github/&lt;/code&gt; of my laptop or local machine. Files created under
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;static-site&lt;/code&gt; will be visible outside even after the container is stopped.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--publish&lt;/code&gt; is used to expose ports of the container outside it. Here, I’m
+exposing port &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;4000&lt;/code&gt; since the jekyll server runs on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;localhost:4000&lt;/code&gt;. I’ll be
+saying more on this later down.&lt;/li&gt;
+      &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-it&lt;/code&gt;  stands for &lt;strong&gt;i&lt;/strong&gt;nteractive &lt;strong&gt;t&lt;/strong&gt;erminal. It is needed since you will
+be entering commands in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bash&lt;/code&gt; process you just started in the container.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now, I opened a different terminal window (not running &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker&lt;/code&gt;) and navigated
+to my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/home/deep/github&lt;/code&gt; and initiated a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git&lt;/code&gt; repository which will host my
+static site.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;My intention being that I will run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll&lt;/code&gt; commands from the first terminal to
+build and locally &lt;em&gt;see&lt;/em&gt; the website. But for everything else, like editing the
+files, or checking out the files to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git&lt;/code&gt;, I will use the second terminal (or
+for that matter as many new terminal tabs I require). &lt;strong&gt;Bottomline&lt;/strong&gt;: One terminal
+running Jekyll container to build and serve the website. Other terminal windows
+to do eveything else.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Now back to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--publish&lt;/code&gt;. Inside of the container you will frequently run
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt; which starts the jekyll server for you to see the
+website in action. The address is typically &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;localhost:4000&lt;/code&gt;. If you were not
+running a container, you will be able to preview the website if you entered this
+address in a web browser. However in this case, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;localhost&lt;/code&gt; refers
+to the container and &lt;em&gt;its&lt;/em&gt; port &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;4000&lt;/code&gt;. This is why we exposed it using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--publish&lt;/code&gt;.
+You need to find out which port outside the container it corresponds to. So
+in the second terminal (not running &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker&lt;/code&gt;) I ran the following,
+    &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker port my-jekyll-container 
+4000/tcp -&amp;gt; 0.0.0.0:32769
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;p&gt;which says container port &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;4000&lt;/code&gt; corresponds to host &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.0.0.0&lt;/code&gt;, port &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;32769&lt;/code&gt;
+(the number may be different in your case). So you need to supply this information
+to jekyll when running the server. I did the following to start the server inside
+the container,&lt;/p&gt;
+    &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve &lt;span class=&quot;nt&quot;&gt;--host&lt;/span&gt; 0.0.0.0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;p&gt;and then found the preview in a browser when I entered &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;localhost:32769&lt;/code&gt;. That’s
+it. So to recap, the terminal with the  container runs the jekyll server, you
+make edits and check out files to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git&lt;/code&gt; using other terminal windows, and see the
+preview on your browser.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;some-images-are-rotated&quot;&gt;Some images are rotated&lt;/h2&gt;
+
+&lt;p&gt;Another issue I found when adding images is that some of photos I had taken on
+my phone always showed up rotated on the site preview. After some digging around,
+I eventually found the issue to be what the orientation of the phone was when
+I took the photo (which, of course, you cannot do anything about now). Apparently,
+the meta information of the photo was jumbled up as to what was &lt;em&gt;top&lt;/em&gt; or &lt;em&gt;bottom&lt;/em&gt;.
+Fortunately, there was a simple fix.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Firstly you need to check if this is the case. Some more digging pointed to
+&lt;a href=&quot;https://exiftool.org/&quot;&gt;Exiftool&lt;/a&gt; which is available in package managers.
+I installed it and ran the following on the misbehaving images.
+    &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;exiftool &lt;span class=&quot;nt&quot;&gt;-Orientation&lt;/span&gt; my-image.jpg
+Orientation                     : Rotate 90 CW
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;p&gt;This confirmed that indeed this was the case.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;For me, I tried to open the picture in GIMP which comes pre-installed in
+Debian systems, and it asked me rightaway, if I wanted to fix the orientation.
+All I had to do is to export it with a different filename from GIMP.
+Later, I came to know that this also happens with tools like Photoshop.
+It was a serendipitous, much welcome fix!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I should mention that the &lt;a href=&quot;https://www.linkedin.com/learning-login/share?forceAccount=false&amp;amp;redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-static-site-building-with-jekyll%3Ftrk%3Dshare_ent_url&amp;amp;account=77313426&quot;&gt;LinkedIn course&lt;/a&gt; by Nate Barbettini helped me get a quick start
+with Jekyll. Otherwise, if you decide to use the same template as I did, the
+&lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/&quot;&gt;quick start&lt;/a&gt;
+should be good enough. Happy Jekylling!&lt;/p&gt;</content><author><name>Deep Chatterjee</name><email>deep.chatterjee@ligo.org</email></author><summary type="html">The days following my Ph.D. defense and dissertation submission was the perfect time for me to create a personal website, something I had been waiting to do for a long time. I was able to create a website in slightly over a weekend with Jekyll. Jekyll is an awesome tool to create static websites, like a personal website or a portfolio. Another popular tool I came across was Hugo. However, I decided to stick with Jekyll somehow since I had heard about it earlier. An advantage of using Jekyll is that you get many options for templates to choose from. In my case, I would like to thank Michael Rose for the great looking, feature packed Minimal Mistakes Jekyll template. The sites are also mobile-friendly. I should also mention that you can also host your Jekyll website for free via Github Pages or Netlify. No ads!</summary></entry></feed>
