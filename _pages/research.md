@@ -40,3 +40,4 @@ Here is a list of my [publications](../publications)
 
 - Developer and maintainer of [GWCelery](https://gwcelery.readthedocs.io/).
 - Developer and maintainer of [p-astro](https://pypi.org/project/p-astro/).
+- Tutor in LIGO/Virgo low-latency [bootcamp](https://emfollow.docs.ligo.org/bootcamp/), MIT, 2019.
