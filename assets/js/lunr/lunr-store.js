@@ -4,4 +4,10 @@ var store = [{
         "tags": [],
         "url": "https://deepchatterjeeligo.github.io/portfolio-project//experience-with-jekyll/",
         "teaser": null
+      },{
+        "title": "Defending virtually.",
+        "excerpt":"The Ph.D. defense is like the final exam before one is awarded the doctoral degree. Needless to say it is one of the more anticipated events of this long journey which in my case lasted almost five years. While the thesis submission is the final milestone, I think many would...","categories": [],
+        "tags": [],
+        "url": "https://deepchatterjeeligo.github.io/portfolio-project//defending-virtually/",
+        "teaser": null
       }]
