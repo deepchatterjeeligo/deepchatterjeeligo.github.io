@@ -18,8 +18,9 @@ gallery:
 <b>Middle:</b> The (old) UWM Nemo computing cluster where GW data from LIGO/Virgo detectors is analysed to look for signals.
 <b>Right:</b> Working on the data sitting on my roof!" %}
 
-I am a part of the LIGO Scientific collaboration ([LSC](https://www.ligo.org/)) since 2016, and a part of the
-Zwicky Transient Factory ([ZTF](https://www.ipac.caltech.edu/project/ztf)) since 2017.
+I am a part of the LIGO Scientific collaboration ([LSC](https://www.ligo.org/)) since 2016. I also
+worked with the Zwicky Transient Factory ([ZTF](https://www.ipac.caltech.edu/project/ztf)) between 2017-2020.
+More recently, I became a part of the [LSST DESC Collaboration](https://lsstdesc.org/).
 
 In 2015 gravitational waves (GWs) were directly discovered by the LIGO instruments almost a century after their
 prediction by [Albert Einstein](https://en.wikipedia.org/wiki/Albert_Einstein) in 1916. This was yet another
@@ -33,8 +34,9 @@ present, they are dim and evolve rapidly making it a challenger for observationa
 and ZTF to understand the conditions under which such joint multi-messenger observations are possible, and develop
 tools and software which make such discoveries possible.
 
-Here is a list of my [publications](../publications)
-(also available on [ADS](https://ui.adsabs.harvard.edu/search/q=author%3A%22Chatterjee%2C%20Deep%22&sort=date%20desc%2C%20bibcode%20desc&p_=0)).
+Here is a list of my [publications](../publications); also see my [Google scholar](https://scholar.google.com/citations?user=PAfYsnoAAAAJ&hl=en)
+account and [ADS](https://ui.adsabs.harvard.edu/search/q=author%3A%22Chatterjee%2C%20Deep%22&sort=date%20desc%2C%20bibcode%20desc&p_=0).
+You can find my Ph.D. thesis [here](https://dc.uwm.edu/etd/2363/).
 
 ## Software
 
