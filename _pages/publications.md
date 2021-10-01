@@ -31,4 +31,10 @@ permalink: /publications/
 - Observation of Gravitational Waves from Two Neutron Star–Black Hole Coalescences, [ApJL](https://iopscience.iop.org/article/10.3847/2041-8213/ac082e) (2021).
 - GW190814: Gravitational Waves from the Coalescence of a 23 Solar Mass Black Hole with a 2.6 Solar Mass Compact Object, [ApJL](https://iopscience.iop.org/article/10.3847/2041-8213/ab960f) (2020).
 - GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral, [PRL](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.161101) (2017).
-- Illuminating gravitational waves: A concordant picture of photons from a neutron star merger, [Science](https://www.science.org/lookup/doi/10.1126/science.aap9455) (2017).
+
+# Observing proposals
+I am part of the following [James Webb](https://www.jwst.nasa.gov/) kilonova follow-up proposals:
+- Nebular Spectroscopy of a Kilonova with JWST, [GO 1936](https://www.stsci.edu/jwst/science-execution/program-information.html?id=1936) (PI: Charlie Kilpatrick)
+- Nucleosynthesis, Astrophysics, and Cosmology with IR Observations of a Gravitational Wave Counterpart, [GO 2061](https://www.stsci.edu/jwst/science-execution/program-information.html?id=2061) (PI: Ryan Foley)
+- Detecting the Synthesis of the Heaviest Elements with Photometry of a Kilonova in the Optically Thin Phase, [GO 2091](https://www.stsci.edu/jwst/science-execution/program-information?id=2091) (PI: Maria Drout)
+
