@@ -28,17 +28,17 @@ the knowledge of partial differentition.
 
 ## Practical working of a neural-net
 Fundamental points:
-- A neural net is basically a function - $$f: \mathcal{R}^m \rightarrow \mathcal{R}^n$$.
+- A neural net is basically a function - $f: \mathcal{R}^m \rightarrow \mathcal{R}^n$.
   Once trained, the outputs are deterministic (as opposed to stochastic).
-  For simplicity, lets put $$n=1$$.
+  For simplicity, lets put $n=1$.
 - It is formed out of composition of a) a linear transformation, followed by b) a non-linear
   activation function.
 - The "deep" (not me. And I've heard that one many times) in deep-neural-nets is basically the
   total number of compositions, which are referred to as _hidden layers_. Let's consider
   the simplest example of a single hidden layer,
-\begin{align}
-  f = \beta\;\sigma\;\left(\sum_{j=1}^{m} W_j\;x_j + b\right).
-\end{align}
+  
+  $$ f = \beta\;\sigma\;\left(\sum_{j=1}^{m} W_j\;x_j + b\right). $$
+
   Here, $$W_j$$ are a set of parameters called _weights_ that are adjustable during the
   training. The parameter $$b$$ is called the bias. The function $$\sigma$$ is a non-linear
   activation function. An example is,
