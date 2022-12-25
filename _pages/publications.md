@@ -16,6 +16,9 @@ permalink: /publications/
 - Toward Rate Estimation for Transient Surveys. I. Assessing Transient Detectability and Volume Sensitivity for iPTF, [ApJ](https://iopscience.iop.org/article/10.3847/1538-4357/ab2b9c) (2019).
 
 ## Contributing author papers
+- Breaking Bad Degeneracies with Love: Improving gravitational-wave measurements through universal relations, [arXiv](https://doi.org/10.48550/arXiv.2210.09386).
+- The Young Supernova Experiment Data Release 1 (YSE DR1): Light Curves and Photometric Classification of 1975 Supernovae, [arXiv](https://doi.org/10.48550/arXiv.2211.07128).
+- The Simulated Catalogue of Optical Transients and Correlated Hosts (SCOTCH), [arXiv](https://doi.org/10.48550/arXiv.2206.02815).
 - Improved early warning of compact binary mergers using higher modes of gravitational radiation: a population study, [MNRAS](https://doi.org/10.1093/mnras/stab125) (2021).
 - Template bank for spinning compact binary mergers in the second observation run of Advanced LIGO and the first observation run of Advanced Virgo, [PRD](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.103.084047) (2021).
 - Of Harbingers and Higher Modes: Improved Gravitational-wave Early Warning of Compact Binary Mergers, [ApJL](https://iopscience.iop.org/article/10.3847/2041-8213/aba42d) (2020).
