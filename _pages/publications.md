@@ -9,7 +9,7 @@ permalink: /publications/
 ---
 
 ## Lead author papers
-- El-CID: A filter for Gravitational-wave Electromagnetic Identification, [arXiv](https://arxiv.org/abs/2108.04166) (2021).
+- El-CID: A filter for Gravitational-wave Electromagnetic Identification, [MNRAS](https://doi.org/10.1093/mnras/stab3023) (2021).
 - Cosmology with Love:  Measuring the Hubble constant using neutron star universal relations, [PRD Editor's suggestion](https://arxiv.org/abs/2106.06589) (2021).
 - First Demonstration of Early Warning Gravitational-wave Alerts, [ApJL](https://iopscience.iop.org/article/10.3847/2041-8213/abed54) (2021).
 - A Machine Learning-based Source Property Inference for Compact Binary Mergers, [ApJ](https://iopscience.iop.org/article/10.3847/1538-4357/ab8dbe) (2020).
@@ -35,9 +35,10 @@ permalink: /publications/
 - GW190814: Gravitational Waves from the Coalescence of a 23 Solar Mass Black Hole with a 2.6 Solar Mass Compact Object, [ApJL](https://iopscience.iop.org/article/10.3847/2041-8213/ab960f) (2020).
 - GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral, [PRL](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.161101) (2017).
 
-# Observing proposals
+# Observing and computing proposals
+I was the PI for a startup allocation titled "Gravity and Light with Artificial Intelligence" for 500 GPU and 5000 CPU core hours on NCSA [Delta](https://www.ncsa.illinois.edu/research/project-highlights/delta/) during Fall 2021.
+
 I am part of the following [James Webb](https://www.jwst.nasa.gov/) kilonova follow-up proposals:
 - Nebular Spectroscopy of a Kilonova with JWST, [GO 1936](https://www.stsci.edu/jwst/science-execution/program-information.html?id=1936) (PI: Charlie Kilpatrick)
 - Nucleosynthesis, Astrophysics, and Cosmology with IR Observations of a Gravitational Wave Counterpart, [GO 2061](https://www.stsci.edu/jwst/science-execution/program-information.html?id=2061) (PI: Ryan Foley)
 - Detecting the Synthesis of the Heaviest Elements with Photometry of a Kilonova in the Optically Thin Phase, [GO 2091](https://www.stsci.edu/jwst/science-execution/program-information?id=2091) (PI: Maria Drout)
-

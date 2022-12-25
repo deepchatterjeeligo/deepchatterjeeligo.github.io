@@ -22,7 +22,7 @@ limit!
 
 My defense date was on April 16, 2020, right in the middle of the coronavirus
 crisis. The first major academic conference that was canceled due to the spread
-of COVID-19 was the APS March Meeting, schduled to happen in the first week
+of COVID-19 was the APS March Meeting, scheduled to happen in the first week
 of March. I remember this well since my roommate was supposed to leave for Denver
 for the meeting on a morning flight. He got the news of cancellation around
 10 PM the night before. Personally, I had plans to visit my fiancee in Dallas,
@@ -60,7 +60,7 @@ I mention that it was not like an exam, the feeling after defense was very much
 like getting done with a difficult one _successfully_. I caught up with my advisor
 later on regarding the review and changes to the thesis suggested by
 the committee before submission. I finally submitted on the first week of May.
-I'll leave a link once it is available in the public domain.
+It is linked [here](https://dc.uwm.edu/etd/2363/).
 
 In hindsight, I consider myself very lucky to have stayed healthy throughout
 this time and defending successfully. In fact, it was a productive time
