@@ -19,8 +19,8 @@ element analysis. Another application is in parameter estimation where the so ca
 likelihood-free inference techniques are an alternative (and a shift) from traditional
 techniques of stochastic sampling like Monte-Carlo. But what is fundamental reason behind
 neural nets working? I feel most internet resources dive into constructing a neural net
-without mentioning the answer to this. I was curious about this (since I am taking up
-a project on using neural nets), and I thought of writing this short article about it.
+without mentioning the answer to this. I was curious about this thought of writing this
+short article about it.
 
 I should mention that while the term _neural network_ sounds fancy. Practically, the
 understanding is pretty simple, and one is able to follow it with high-school math and
@@ -29,11 +29,11 @@ the knowledge of partial differentition.
 ## Practical working of a neural-net
 Fundamental points:
 - A neural net is basically a function - $$f: \mathcal{R}^m \rightarrow \mathcal{R}^n$$.
-  Once trained, the outputs are deterministic (as opposed to stochastic).
+  Once trained, the outputs are deterministic.
   For simplicity, lets put $$n=1$$.
 - It is formed out of composition of a) a linear transformation, followed by b) a non-linear
   activation function.
-- The "deep" (not me. And I've heard that one many times) in deep-neural-nets is basically the
+- The "deep" (has nothing to do with my name) in deep-neural-nets is basically the
   total number of compositions, which are referred to as _hidden layers_. Let's consider
   the simplest example of a single hidden layer,
 \begin{align}
@@ -60,7 +60,7 @@ Fundamental points:
   operation.
 
 ## But why will such a composition work at all?
-This was, at least for me, the more important question.
+For me this was the more important question.
 
 After all, the application of neural-nets lie in the practical difficulty that
 we cannot know the relation between inputs and outputs in most practical
@@ -135,8 +135,7 @@ And this is where the nature and intuition about a specific problem becomes
 important, and is an active area of research in algoritms and computation.
 
 
-I must mention that most of the statements above are the way I understand
-the statements of the proof, and certainly leaves out a lot of rigor. But
+I must mention that most of the statements above leave out rigor, but
 it is sufficient for my understanding of the bottomline. Hope this helps
 someone who was like me, wanting to find some fundamental reason why the
 hype with neural-nets after all.

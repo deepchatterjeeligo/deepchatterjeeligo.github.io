@@ -64,7 +64,7 @@ It is linked [here](https://dc.uwm.edu/etd/2363/).
 
 In hindsight, I consider myself very lucky to have stayed healthy throughout
 this time and defending successfully. In fact, it was a productive time
-and I could get a lot done, making this website. Besides work, I was able to
+and I could get a lot done - like making this website. Besides work, I was able to
 find time for hobbies, I (re)connected with many friends and extended family
 members. Also, being serendipitously together with my finacee during this
 time was more than a great support.  Finally, this event also found its
