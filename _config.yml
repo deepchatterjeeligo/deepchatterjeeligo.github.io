@@ -99,6 +99,12 @@ author:
   location         : "Cambridge, MA"
   email            : "deep.chatterjee@ligo.org"
   links:
+    - label: "Scholar"
+      icon: "ai ai-fw ai-google-scholar-square"
+      url: "https://scholar.google.com/citations?user=PAfYsnoAAAAJ&hl=en"
+    - label: "ORCiD"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0003-0038-5468"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/deep-chatterjee-ab6283182"
@@ -108,9 +114,6 @@ author:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       url: "https://git.ligo.org/deep.chatterjee"
-    - label: "ORCiD"
-      icon: "fab fa-fw fa-orcid"
-      url: "https://orcid.org/0000-0003-0038-5468/"
 
 # Site Footer
 footer:
