@@ -21,7 +21,7 @@ gallery:
 I am a part of the LIGO Scientific collaboration ([LSC](https://www.ligo.org/)) since 2016.
 During my postdoc, I worked with the [LSST DESC Collaboration](https://lsstdesc.org/).
 I have also worked with the Zwicky Transient Factory ([ZTF](https://www.ipac.caltech.edu/project/ztf))
-during my Ph.D.
+during my Ph.D. Aside from LIGO, I am also currently a part of the [A3D3](https://a3d3.ai/) NSF Institute.
 
 In 2015, gravitational waves (GWs) were directly discovered by the LIGO instruments almost a century after their
 prediction by [Albert Einstein](https://en.wikipedia.org/wiki/Albert_Einstein) in 1916. This was yet another
@@ -33,10 +33,11 @@ This was the start of _multi-messenger astronomy_ using GWs. It is however chall
 counterparts since not all GW detections are expected to have accompanying counterparts. Even when they are
 present, they are dim and evolve rapidly, making it a challenge for observational effort. Within LIGO,
 I study the conditions when such joint multi-messenger observations are possible, and
-develop tools and data products which make such discoveries possible. My research is interdisciplinary -
+develop tools, data products, and algorithms using machine-learning which make such discoveries possible. 
+My research is interdisciplinary -
 aside from general relativity, one has to use results from several different areas like nuclear
 physics and high-energy astrophysics. Computing plays a big role in the implementation for most
-data analysis techniques, with  machine learning starting to play a bigger role nowadays.
+data analysis techniques, with machine learning starting to play a bigger role nowadays.
 Apart from multi-messenger astronomy, I am interested in gravitational-wave
 cosmology. There is a tension in the measured value of the Hubble constant, between the two established
 probes - type Ia supernovae and the cosmic microwave background. Gravitational waves provide an independent
@@ -50,6 +51,6 @@ or [ORCiD](https://orcid.org/0000-0003-0038-5468). My Ph.D. thesis can be found
 
 ## Software
 
+- Author and maintainer of [GWCelery](https://git.ligo.org/emfollow/gwcelery).
 - Author and maintainer of [ligo.em-bright](https://git.ligo.org/emfollow/em-properties/em-bright).
-- Co-author and maintainer of [GWCelery](https://git.ligo.org/emfollow/gwcelery).
 - Tutor in LIGO/Virgo low-latency [bootcamp](https://emfollow.docs.ligo.org/bootcamp/), MIT, 2019.
